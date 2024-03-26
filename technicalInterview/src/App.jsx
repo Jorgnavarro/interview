@@ -11,7 +11,7 @@ function App() {
     const answer = [];
     let today = "monday"
     if(today === 'wednesday'){
-      if (e.target.value < 1000 && !isNaN(valueInput)) {
+      if (e.target.value < 1000 && !isNaN(valueInput) && e.target.value > 0) {
         for (let i = 1; i <= e.target.value; i++) {
           if (i % 3 === 0 && i % 5 === 0) {
             answer.push("wizz wuzz");
@@ -31,7 +31,7 @@ function App() {
 
     }else{
 
-      if (e.target.value < 1000 && !isNaN(valueInput)) {
+      if (e.target.value < 1000 && !isNaN(valueInput) && e.target.value > 0) {
         for (let i = 1; i <= e.target.value; i++) {
           if (i % 3 === 0 && i % 5 === 0) {
             answer.push("fizz buzz");
