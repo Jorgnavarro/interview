@@ -9,7 +9,7 @@
  
 You have 2 hours to complete the exercise
  
-**You must check in your code to Bitbucket every 10 minutes, without fail**
+**You must check in your code to Github**
  
 Also, check in your code after every step, and label it ‘Step 1’, ‘Step 2’ etc.
  
@@ -33,7 +33,6 @@ Also, check in your code after every step, and label it ‘Step 1’, ‘Step 2�
 
 4 - Change the logic so that if today is Wednesday, the words 'wizz' and ‘wuzz' are substituted for 'fizz' and 'buzz 
 
-* Decided to do simple injection of DateTime.Now as a func instead of complicating with a time class that you can mock later as I dont think is needed for this simple project. Unit testing could be done better to avoid repetition
 
 5 - Amend the program so only 20 values are displayed at a time. Implement ‘Next’ and ‘Previous’ buttons to display the remaining values.
 
